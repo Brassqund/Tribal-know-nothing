@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef ParentName="PlayerFactionBase">
+    <defName>PlayerTribeDontKnow</defName>
+    <label>New Tribe that know nothing</label>
+    <description>Your own tribe. No starting knowledge</description>
+    <isPlayer>true</isPlayer>
+    <pawnsPlural>tribespeople</pawnsPlural>
+    <basicMemberKind>Tribesperson</basicMemberKind>
+    <factionBaseNameMaker>NamerFactionBasePlayerTribe</factionBaseNameMaker>
+    <techLevel>Neolithic</techLevel>
+    <backstoryCategory>Tribal</backstoryCategory>
+    <pawnNameMaker>NamerPersonTribal</pawnNameMaker>
+    <expandingIconTexture>World/WorldObjects/Expanding/Village</expandingIconTexture>
+    <homeIconPath>World/WorldObjects/TribalFactionBase</homeIconPath>
+    <startingResearchTags>
+      <li>TribalStartNone</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>Tribal</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    </FactionDef>
+
+</Defs>
